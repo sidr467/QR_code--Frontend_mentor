@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: hsl(212, 45%, 89%);
+}
+
+.container {
+  border-radius: 1rem;
+  width: 360px;
+  height: 560px;
+  background: hsl(0, 0%, 100%);
+}
+
+.img-container {
+  margin: 2rem auto;
+}
+
+img {
+  border-radius: 1rem;
+  width: 300px;
+}
+
+.text-container {
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
