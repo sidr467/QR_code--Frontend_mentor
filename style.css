@@ -21,6 +21,7 @@ body {
   width: 340px;
   height: 520px;
   background: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 15px 1px #a89fa8;
 }
 
 .img-container {
